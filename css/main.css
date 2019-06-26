@@ -916,9 +916,8 @@ ul {
   width: 33.33%;
   padding: 0 20px;
   border-bottom: 1px solid #ededed; }
-.expertise .col:nth-child(1) {
-	img {margin-bottom:25px;}
-	}
+  .expertise .col:nth-child(1) img {
+    margin-bottom: 25px; }
   .expertise .col:nth-child(1), .expertise .col:nth-child(4) {
     border-right: 1px solid #ededed; }
   .expertise .col:nth-child(3), .expertise .col:nth-child(6) {
