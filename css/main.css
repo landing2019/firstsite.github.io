@@ -916,6 +916,8 @@ ul {
   width: 33.33%;
   padding: 0 20px;
   border-bottom: 1px solid #ededed; }
+  .expertise .col:nth-child(1) img {
+    margin-bottom: 25px; }
   .expertise .col:nth-child(1), .expertise .col:nth-child(4) {
     border-right: 1px solid #ededed; }
   .expertise .col:nth-child(3), .expertise .col:nth-child(6) {
@@ -1698,7 +1700,10 @@ header {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+	-webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;}
     @media (max-width: 479px) {
       #footer .social {
         -webkit-box-pack: center;
