@@ -698,7 +698,9 @@ ul {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 50px;
-    z-index: 5; }
+    z-index: 5; 
+    @media (max-width: 479px) {
+    margin-bottom:40px;}}
   .agency h1 {
     margin-bottom: 50px;
     position: relative;
@@ -756,7 +758,7 @@ ul {
         margin-bottom: 80px; } }
     @media (max-width: 479px) {
       .agency .button {
-        margin-bottom: 60px; } }
+        margin-bottom: 40px; } }
 
 .story {
   padding: 70px 0; }
