@@ -681,7 +681,7 @@ ul {
       padding-top: 120px; } }
   @media (max-width: 479px) {
     .agency {
-      min-height: 500px;
+      min-height: 600px;
       padding-bottom: 70px; } }
   .agency::before {
     content: "";
