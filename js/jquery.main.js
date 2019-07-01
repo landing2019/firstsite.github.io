@@ -5,10 +5,6 @@ $('.menu-btn').on('click', function(e) {
   $('.item').toggleClass('item_active');
 });
 
-$('[data-fancybox="gallery"]').fancybox({
-	// Options will go here
-});
-
 $(function(){
 
   'use strict';
