@@ -1388,7 +1388,8 @@ ul {
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    margin-bottom: 85px; }
   .reviews a {
     display: block;
     padding: 10px 30px;
@@ -1398,9 +1399,7 @@ ul {
       -webkit-transform: scale(1.1);
           -ms-transform: scale(1.1);
               transform: scale(1.1); }
-  .reviews .slid-1,
-  .reviews .slid-2,
-  .reviews .slid-3 {
+  .reviews .slid {
     min-width: 770px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1410,83 +1409,20 @@ ul {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 10px 0;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 45px; }
     @media (max-width: 767px) {
-      .reviews .slid-1,
-      .reviews .slid-2,
-      .reviews .slid-3 {
+      .reviews .slid {
         min-width: 480px; } }
     @media (max-width: 479px) {
-      .reviews .slid-1,
-      .reviews .slid-2,
-      .reviews .slid-3 {
+      .reviews .slid {
         min-width: 320px; } }
   .reviews p {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 45px; }
   .reviews .author {
     font-family: 'Roboto Slab', 'Times New Roman', serif;
     font-size: 20px; }
-  .reviews .slider {
-    width: 770px;
-    margin: 80px auto;
-    position: relative; }
-    @media (max-width: 767px) {
-      .reviews .slider {
-        width: 480px;
-        margin: 40px auto; } }
-    @media (max-width: 479px) {
-      .reviews .slider {
-        width: 320px;
-        margin: 20px auto; } }
-  .reviews .slider input[type=radio] {
-    display: none; }
-  .reviews .slider-inner {
-    overflow: hidden; }
-  .reviews .slider-slides {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-transition: -webkit-transform .8s ease;
-    transition: -webkit-transform .8s ease;
-    transition: transform .8s ease;
-    transition: transform .8s ease, -webkit-transform .8s ease; }
-  .reviews .slider-controls {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    bottom: -40px;
-    z-index: 100;
-    text-align: center; }
-  .reviews .slider-controls label {
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    margin: 0 3px;
-    background: rgba(85, 85, 85, 0.5);
-    cursor: pointer;
-    border-radius: 50%;
-    -webkit-transition: background-color .2s;
-    transition: background-color .2s; }
-  .reviews #btn-1:checked ~ .slider-controls label[for="btn-1"],
-  .reviews #btn-2:checked ~ .slider-controls label[for="btn-2"],
-  .reviews #btn-3:checked ~ .slider-controls label[for="btn-3"] {
-    background-color: #c0301c; }
-  .reviews #btn-1:checked ~ .slider-inner .slider-slides {
-    -webkit-transform: translate(100%);
-        -ms-transform: translate(100%);
-            transform: translate(100%); }
-  .reviews #btn-2:checked ~ .slider-inner .slider-slides {
-    -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-            transform: translate(0); }
-  .reviews #btn-3:checked ~ .slider-inner .slider-slides {
-    -webkit-transform: translate(-100%);
-        -ms-transform: translate(-100%);
-            transform: translate(-100%); }
 
 .touch .row {
   -webkit-box-align: start;
